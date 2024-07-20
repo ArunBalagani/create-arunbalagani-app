@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+// src/App.js
+import React from 'react';
+import Header from './components/Header';
+import Home from './components/Home';
+import About from './components/About';
+import Projects from './components/Projects';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 import './App.css';
 
-
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-       <h1 className='text-primary'>
-        Arun Kumar Balagani Portfolio
-       </h1>
-        <p>
-          My First React Project
-        </p>
-
-       
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header />
+            <Home />
+            <About />
+            <Projects />
+            <Resume />
+            <Contact />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;

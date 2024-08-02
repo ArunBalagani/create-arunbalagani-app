@@ -1,4 +1,4 @@
-// src/components/Contact.js
+ // src/components/Contact.js
 import React from 'react';
 
 const Contact = () => {
@@ -15,9 +15,9 @@ const Contact = () => {
                 <button type="submit" className="btn">Send</button>
             </form>
             <div className="social-links">
-                <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">GitHub</a>
-                <a href="mailto:your.email@example.com">Email</a>
+                <a href="https://www.linkedin.com/in/arunkumar-balagani-340220301" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/ArunBalagani" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="mailto:arunkumarbalagani1997@gmail.com">Email</a>
             </div>
         </section>
     );

@@ -1,0 +1,56 @@
+/* src/components/Projects.css */
+
+.projects-section {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background for contrast */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Darker color for headings */
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between grid items */
+}
+
+.project-card {
+    background-color: #fff; /* White background for cards */
+    border: 1px solid #dee2e6; /* Light border for cards */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease; /* Smooth scale transition */
+}
+
+.project-card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.project-card img {
+    width: 100%; /* Responsive images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+.project-links {
+    margin-top: 10px; /* Space above buttons */
+    display: flex;
+    justify-content: space-between; /* Space out buttons */
+}
+
+.btn {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #fff; /* White text color */
+    padding: 10px 15px; /* Button padding */
+    border-radius: 5px; /* Rounded button corners */
+    text-decoration: none; /* No underline */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}

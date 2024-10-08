@@ -228,3 +228,46 @@ footer {
 .footer-nav a:hover {
     text-decoration: underline;
 }
+
+
+#home {
+    background-color: #f4f4f4; /* Light background */
+    padding: 50px 20px; /* Add padding */
+    text-align: center; /* Center text */
+}
+
+.hero {
+    max-width: 600px; /* Limit max width */
+    margin: 0 auto; /* Center the hero section */
+}
+
+.profile-image {
+    width: 150px; /* Set width */
+    height: 150px; /* Set height */
+    border-radius: 50%; /* Make image circular */
+    margin-bottom: 20px; /* Add space below image */
+}
+
+h1 {
+    font-size: 2.5em; /* Set larger font size */
+    margin: 10px 0; /* Add margin */
+}
+
+p {
+    font-size: 1.2em; /* Set font size for description */
+    margin: 10px 0; /* Add margin */
+}
+
+.btn {
+    display: inline-block; /* Make it an inline-block element */
+    padding: 10px 20px; /* Add padding */
+    background-color: #007bff; /* Button color */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker on hover */
+}
+

@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <section id="home">
             <div className="hero">
-                <img src={heroImage} alt="Arun Kumar" className="profile-image" />
+                <img src={heroImage} alt="Arun Kumar" className="profile-image" width="300" height="200" />
                 <h1>Arun Kumar</h1>
                 <p>Full Stack Developer</p>
                 <a href="#projects" className="btn">View My Work</a>

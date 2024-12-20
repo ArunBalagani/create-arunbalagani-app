@@ -4,7 +4,7 @@ import React from 'react';
 const About = () => {
     return (
         <section id="about">
-            <h2>About Me</h2>
+            <h2>About Us</h2>
             <p>
                 I am a passionate MERN Stack Developer with experience in building dynamic and responsive web applications.
                 With a strong foundation in JavaScript and its frameworks, I enjoy creating user-friendly interfaces

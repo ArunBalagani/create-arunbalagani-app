@@ -1,7 +1,7 @@
 // src/components/Home.js
 import React from 'react';
 // import heroImage from '../images/pic-1.jpg';
-import banner from '../images/banner.jpg'
+import banner from '../images/banner.jpg';
 
 const Home = () => {
     return (
@@ -17,3 +17,6 @@ const Home = () => {
 };
 
 export default Home;
+
+
+

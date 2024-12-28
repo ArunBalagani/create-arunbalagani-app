@@ -9,7 +9,7 @@ const Home = () => {
             <div className="hero">
                 <img src={banner} alt="Arun Kumar" className="profile-image" width="300" height="200" />
                 <h1>Arun Kumar</h1>
-                <p>Full Stack Developer</p>
+                <p>MERN STACK DEVELOPER</p>
                 <a href="#projects" className="btn">View My Work</a>
             </div>
         </section>
